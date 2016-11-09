@@ -1,0 +1,33 @@
+===============================
+|  Rhythm Patches
+===============================
+
+; NM AG FB		Kick
+@10  0  4		=Kick
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 9,14, 5, 0, 0, 0, 0, 0, 0, 0
+ 15, 3,12, 7, 0, 0, 0, 0, 0, 0, 0
+ 
+; NM AG FB		Snare
+@11  0  7		=Snare
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 8, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
+ 
+; NM AG FB		C.Hat
+@12  0  7		=C.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 8,14, 7, 5, 0, 7, 0, 0, 0, 0
+ 15, 8,15, 3, 0, 1, 1, 0, 0, 0, 0
+
+; NM AG FB		O.Hat
+@13  0  7		=O.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 5,14, 5, 4, 0, 4, 0, 0, 0, 0
+ 15, 6,12, 2, 0, 1, 1, 0, 0, 0, 0
+ 
+; NM AG FB		Tom
+@14  1  6		=Tom
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 6, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
