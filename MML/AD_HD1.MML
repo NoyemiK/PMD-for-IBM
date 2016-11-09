@@ -1,0 +1,137 @@
+;========================
+; BY: NOYEMI KARLAITE
+;========================
+
+#Title		The Professor
+#Composer	Noyemi Karlaite
+#Arranger	Noyemi Karlaite
+#Memo		AdLib Version
+#Detune		Extend
+#Timer		178
+#Option		/L /V
+#Filename	.M
+
+;======================
+; Melody
+;======================
+
+; NM AG FB		E.Bass
+@00  0  2		=HDBass1
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 12, 9,12, 2, 4, 0, 0, 0, 1, 0, 0
+ 15, 5, 6, 1, 0, 0, 1, 0, 0, 0, 0
+
+; NM AG FB		E.Bass2
+@01  0  3		=Lead1
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 5, 5, 8,24, 0, 2, 0, 1, 1, 0
+ 15, 5,11, 3, 0, 0, 2, 1, 1, 1, 0
+ 
+; NM AG FB		Pad
+@02  0  4		=Pad
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 11, 5, 7, 9,22, 0, 3, 1, 1, 1, 0
+ 15, 2, 7, 1, 0, 0, 2, 0, 1, 1, 0
+
+; NM AG FB		Kick
+@10  0  4		=Kick
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 9,14, 5, 0, 0, 0, 0, 0, 0, 0
+ 15, 3,12, 7, 0, 0, 0, 0, 0, 0, 0
+ 
+; NM AG FB		Snare
+@11  0  7		=Snare
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 8, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
+ 
+; NM AG FB		C.Hat
+@12  0  7		=C.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 8,14, 7, 5, 0, 7, 0, 0, 0, 0
+ 15, 8,15, 3, 0, 1, 1, 0, 0, 0, 0
+
+; NM AG FB		O.Hat
+@13  0  7		=O.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 5,14, 5, 4, 0, 4, 0, 0, 0, 0
+ 15, 6,12, 2, 0, 1, 1, 0, 0, 0, 0
+ 
+; NM AG FB		Tom
+@14  1  6		=Tom
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 6, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
+ 
+;===============
+; Rhythm Macros
+;===============
+!e [r1]4
+!k @10 v15{o3c<c}
+!s @11 v14{o4c<c}
+!c @12 v13o5c
+!o @13 v13o5f
+!h @14 v14{o5fc}
+!m @14 v14{o4fc}
+!l @14 v14{o3fc}
+
+!A [!k!c!c!c !s!c!o!k !c!c!k!c !s!c!c!o]2 !k!c!c!c !s[!c32]2!o!k !c!c!k!c !h!m!c!l !k!c!c!c !s!c!o!k !c!c!k[!k32]2 !h!m!l!l
+!B [!k!c!o8 !s!c!o!k !c!c!k!c !s!c!c!o]2 !k!c!c!c !s[!c32]2!o!k !c!c!k!c !h!m!c!l [!k!c!o8]2 !k!c!s[!k32]2 !s!k[!s32]2!s
+;===============
+; Song Sequence
+;===============
+
+ABCDEFGHI l16
+AI	@0v15
+I	v13
+AI	L @1
+AI	l16 o3 [r1]3 c4 f4 a+4 >d+4 o3@0
+AI	[[d+d+r>d+ r8c+r r<a+>cc+cc+c<g+]4]2 [d+d+r>d+ r8c+r r<a+>cc+cc+c<g+]3 o3@1 c+4 f+4 b4 >e4 <d4 g4 >c4 f4
+AI	o3@0[dd>rdr8<{a32>c32}r8<ab>c<b>c<bg]7 dd>rdr8<{a32>c32}r8< a>cd8e8<g
+AI	o3 [d+d+r>d+ r8c+r r<a+>cc+cc+c<g+]7 o3@1 c+4 f+4 b4 >e4 
+
+
+BC	v14
+B	D2v11
+BC	L@2
+BC	o4 [r1]3 c4 f4 a+4 >d+4 o4
+BC	[r1]4 d+8r<b+>c+r8<a+b+ r8ga+b+>c+d+> d+d+rg+&a+4^2r4< d+8r<b+>c+r8<a+b+ r8g+a+b+>c+d+> d+d+r>d+ rd+d+8 r8<b+4>c+8<
+BC	f2r2a+4d+4>c+4<g+4f8d+{d+f}8d+{d+f}8d+f8r4r <c+4 f+4 b4 >e4 <d4 g4 >c4 f4
+
+BC	o4 [[f+&g8g r8]2 a4]3 <d4 g4 >c4 f4 [r1]4
+BC	o3 [r1]4 [d+d+r>d+ r8c+r r<a+>cc+cc+c<g+]3> c+4 f+4 b4 >e4
+
+
+DEF v15@1
+DEF L o4	
+
+D	[[f+&g8g r8]2 f4]4
+E	[[c+&d8d r8]2 c4]4
+F	[<[b&>c8c r8]2< a+4 [b&>c8c r8]2 d4]2
+
+DEF o4
+
+D	[[g&g+8g+ r8]2 a+4]12
+E	[[d&d+8d+ r8]2 f4]12
+F	[[c&c+8c+ r8]2 d+4 [c&c+8c+ r8]2 c4]6
+
+DEF	o4 r1
+
+D	[[f+&g8g r8]2 a4]8
+E	[[c+&d8d r8]2 e4]8
+F	[<[b&>c8c r8]2< d4 [b&>c8c r8]2 <b4]4
+
+DEF o5
+
+D	[[g&g+8g+ r8]2 a+a+r8]7
+E	[[d&d+8d+ r8]2 ffr8]7
+F	[[c&c+8c+ r8]2 d+4 [c&c+8c+ r8]2 c4]3 [c&c+8c+ r8]2 d+4
+
+DEF	r1
+
+GH	L  [[!kr8.]4]2 [!k!c!o8]4 !kr[!c32]2!c !s!c!o!k !c!c!k[!k32]2 !s!s!s!s
+GH	[!A]3 [!k!c!o8]2 !k!c!s[!k32]2 !s!k[!s32]2!s
+GH	[!A]3 !B
+
+
+

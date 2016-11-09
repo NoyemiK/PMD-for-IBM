@@ -1,0 +1,136 @@
+;========================
+; BY: NOYEMI KARLAITE
+;========================
+
+#Title		MUSIC1
+#Composer	Noyemi Karlaite
+#Arranger	Noyemi Karlaite
+#Memo		AdLib Version
+#Detune		Extend
+#Timer		184
+#Option		/L /V
+#Filename	.M
+
+;======================
+; Melody
+;======================
+
+; NM AG FB		E.Bass
+@00  0  1		=E.Bass
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13,11,12, 2,14, 1, 1, 0, 1, 0, 0
+ 13, 5, 6, 6, 1, 0, 0, 0, 0, 0, 0
+
+; NM AG FB		E.Bass2
+@01  0  0		=E.Bass2
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 5, 5, 8,24, 0, 2, 0, 1, 1, 0
+ 12, 3,11, 3, 2, 0, 2, 1, 1, 1, 0
+ 
+; NM AG FB		Pad
+@02  1  3		=Pad
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+  5, 3, 5, 7,16, 0, 4, 0, 0, 1, 0
+ 15, 2, 7, 1, 2, 0, 2, 0, 1, 1, 0
+
+; NM AG FB		Kick
+@10  0  4		=Kick
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 9,14, 5, 0, 0, 0, 0, 0, 0, 0
+ 15, 3,12, 7, 0, 0, 0, 0, 0, 0, 0
+ 
+; NM AG FB		Snare
+@11  0  7		=Snare
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 13, 8, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
+ 
+; NM AG FB		C.Hat
+@12  0  7		=C.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 8,14, 7, 5, 0, 7, 0, 0, 0, 0
+ 15, 8,15, 3, 0, 1, 1, 0, 0, 0, 0
+
+; NM AG FB		O.Hat
+@13  0  7		=O.Hat
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 5,14, 5, 4, 0, 4, 0, 0, 0, 0
+ 15, 6,12, 2, 0, 1, 1, 0, 0, 0, 0
+ 
+; NM AG FB		Tom
+@14  1  6		=Tom
+; AR DR RR SL TL KSL ML KSR EGT VIB AM
+ 15, 6, 5, 5, 0, 0, 1, 0, 0, 0, 0
+ 15, 5, 7, 5, 0, 0, 1, 0, 0, 0, 0
+ 
+;===============
+; Rhythm Macros
+;===============
+!e [r1]4
+!k @10 v15{o3c<c}
+!s @11 v14{o3c<c}
+!c @12 v13o5c
+!o @13 v13o5f
+!h @14 v14{o6fc}
+!m @14 v14{o5fc}
+!l @14 v14{o4fc}
+
+!A	[!c]4 !o[!c]3 [!c]4 !c!or!c !c[!c32]2!c!c !o[!c]3 [!c]3[!c32]2 !c!or!c [!c]4 !o[!c]3 [!c]4 !c!or!c !h[!c32]2!c!l !o!c!m!c !c!l!c!m !l!o!l!c
+!B	!k[!c]3 !s!c!c!k !c!c!k!c !s!o8!s !k[!c32]2!c!c !s!c!c!k !c!c!k[!c32]2 !s!sr!s !k[!c]3 !s!c!c!k !c!c!k!c !s!o8!s !k[!c32]2!c!l !s!c!m!k !c!l!k[!k32]2 !s!l!s!s
+;===============
+; Song Sequence
+;===============
+
+ABCDEFG l16
+A	@0v15o3
+A	L
+A 	[g&aga >ar8g r8dr er<f+8 g&aga >ar8g r8dr e4< g&aga >ar8g r8dr er<f+8 g&aga >a8.g8rd8<g8f+8]4 !e!e
+A	[o3 g>fg>d<< rga>fg>cr8<d8f8 f&g8g r<a>f&g8gr<a >fg&a8 o3 g>fg>d<< rga>fg>cr8<d8f8 f&g8g r<a>f&g8gr<a >fg&>c8  o3 f>d+f>c<< rfg>d+fa+r8 c8d+8 d+&f8f r<g>d+&f8fr<g> d+f&g8 o3 g+>f+g+>d+<< rg+a+>f+ g+>c+r8< d+8f+8 f+&g+8g+< ra+>f+&g+8g+r<a+ >f+g+&>c+8]2
+
+A 	o3[g&aga >ar8g r8dr er<f+8 g&aga >ar8g r8dr e4< g&aga >ar8g r8dr er<f+8 g&aga >a8.g8rd8<g8f+8]2
+A	[o3 g>fg>d<< rga>fg>cr8<d8f8 f&g8g r<a>f&g8gr<a >fg&a8 o3 g>fg>d<< rga>fg>cr8<d8f8 f&g8g r<a>f&g8gr<a >fg&>c8  o3 f>d+f>c<< rfg>d+fa+r8 c8d+8 d+&f8f r<g>d+&f8fr<g> d+f&g8 o3 g+>f+g+>d+<< rg+a+>f+ g+>c+r8< d+8f+8 f+&g+8g+< ra+>f+&g+8g+r<a+ >f+g+&>c+8]2
+
+
+BC	@1v13
+BC	Lo5 !e!e
+B	D1[o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8<fr< o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8d8]4 o6
+C	[o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8<fr< o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8d8]4 o5
+
+B	{cd}&d2...c2 {d+f}&f4.. {cd}&dc[d8c]3f8g8 {ga}&a&a4g4.d4 <{a+>c}&c2...< a+2>{c+d+}&d+4.. {d+f}&f2... d+2{d+c+}&c4.. {cd}&d2... c2 {d+f}&f4.. g8&{fg}8&g2. f2 {fd+}&d4.. <{a+>c}&c2...< a+2>{c+d+}&d+4.. {c+d+}&d+c+ [d+8c+]3f+8g+8 {g+a+}8&a+4g+4.>c+4
+C	D3r {cd}&d2...c2 {d+f}&f4.. {cd}&dc[d8c]3f8g8 {ga}&a&a4g4.d4 <{a+>c}&c2...< a+2>{c+d+}&d+4.. {d+f}&f2... d+2{d+c+}&c4.. {cd}&d2... c2 {d+f}&f4.. g8&{fg}8&g2. f2 {fd+}&d4.. <{a+>c}&c2...< a+2>{c+d+}&d+4.. {c+d+}&d+c+ [d+8c+]3f+8g+8 {g+a+}8&a+4g+4.>c+8.
+
+B	[o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8<fr< o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8d8]2 o6
+C	D0[o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8<fr< o3 g>fg>d<< r8a>fg>cr4. <fg8g r8fg8gr8> c8d8]2 o6
+
+B	{cd}&d2...c2 {d+f}&f4.. {cd}&dc[d8c]3f8g8 {ga}&a&a4g4.d4 <{a+>c}&c2...< a+2>{c+d+}&d+4.. {d+f}&f2... d+2{d+c+}&c4.. {cd}&d2... c2 {d+f}&f4.. g8&{fg}8&g2. f2 {fd+}&d4.. <{a+>c}&c2...< a+2>{c+d+}&d+4.. {c+d+}&d+c+ [d+8c+]3f+8g+8 {g+a+}8&a+4g+4.>c+4
+C	D3r {cd}&d2...c2 {d+f}&f4.. {cd}&dc[d8c]3f8g8 {ga}&a&a4g4.d4 <{a+>c}&c2...< a+2>{c+d+}&d+4.. {d+f}&f2... d+2{d+c+}&c4.. {cd}&d2... c2 {d+f}&f4.. g8&{fg}8&g2. f2 {fd+}&d4.. <{a+>c}&c2...< a+2>{c+d+}&d+4.. {c+d+}&d+c+ [d+8c+]3f+8g+8 {g+a+}8&a+4g+4.>c+8.
+
+DEF v13@2
+DEF L o4	!e!e
+
+D	[[f2.g2.r2]3 g+2.a+2.r2]2
+E	[[d2.e2.r2]3 f2.g2.r2]2
+F	[o3[a+2.>c2.r2]3 o4 c+2.d+2.r2]2
+
+DEF o4
+
+D	[[f2.g1&g4]2 d+2.f1&f4 f+2.g+1&g+4]2
+E	[[d2.e1&e4]2 c2.d1&d4 d+2.f1&f4]2
+F	[o3[a+2.>c1&c4]2 o3 g+2.a+1&a+4 b2.>c+1&c+4]2
+
+DEF o4
+
+D	[f2.g2.r2]3 g+2.a+2.r2
+E	[d2.e2.r2]3 f2.g2.r2
+F	o3[a+2.>c2.r2]3 o4 c+2.d+2.r2
+
+DEF o4
+
+D	[[f2.g1&g4]2 d+2.f1&f4 f+2.g+1&g+4]2
+E	[[d2.e1&e4]2 c2.d1&d4 d+2.f1&f4]2
+F	[o3[a+2.>c1&c4]2 o3 g+2.a+1&a+4 b2.>c+1&c+4]2
+
+G	L!A!B!A!B
+
+
+
